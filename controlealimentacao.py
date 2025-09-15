@@ -8,6 +8,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from datetime import datetime, timedelta
 import numpy as np
+import openpyxl
 
 # Configuração da página
 st.set_page_config(
@@ -640,4 +641,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
